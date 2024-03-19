@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sophia's Homepage: Introduction to Web Design.</title>
+    <link rel="stylesheet" href="home.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Comic Sans MS', cursive;
+        }
+
+        header {
+            background-color: #99c28e;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #dceedd;
+            padding: 10px 0;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #234222;
+            padding: 0 20px;
+        }
+
+        nav a:hover {
+            color: #555;
+        }
+
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #ace0bc;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Style for buttons */
+        .options {
+            
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .goButton {
+            margin: 0 10px;
+        }
+
+        .goButton button {
+            font-family: 'Comic Sans MS', cursive;
+            background-color: #99c28e;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+
+        .goButton button:hover {
+            background-color: #7eaa74;
+        }
+        
+        svg {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%; /* Ensure SVG doesn't exceed container width */
+            max-height: 100%; /* Ensure SVG doesn't exceed container height */
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Introduction to Web Production. Welcome to Sophia's Homepage! </h1>
+    <p>~  where you can find interesting content  ~</p>
+</header>
+
+<nav>
+    <a href="#">Nice</a>
+    <a href="#">To</a>
+    <a href="#">Meet</a>
+    <a href="#">You</a>
+</nav>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="450" height="450">
+    <!-- Left Flower -->
+    <a href="https://www.nybg.org/" target="_blank" rel="noopener noreferrer">
+        <g transform="translate(150,300)">
+            <!-- Stem -->
+            <rect x="5" y="100" width="10" height="150" fill="#228B22" />
+          
+            <!-- Petals -->
+            <circle cx="10" cy="0" r="60" fill="#FFB6C1" />
+            <circle cx="-40" cy="50" r="60" fill="#FFB6C1" />
+            <circle cx="60" cy="50" r="60" fill="#FFB6C1" />
+            <circle cx="10" cy="100" r="60" fill="#FFB6C1" />
+            <circle cx="-30" cy="50" r="60" fill="#FFB6C1" />
+            <circle cx="50" cy="50" r="60" fill="#FFB6C1" />
+
+            <!-- Center -->
+            <circle cx="10" cy="50" r="30" fill="#964B00" />
+
+        </g>
+    </a>
+
+    <!-- Center Flower -->
+    <a href="https://www.floretflowers.com/blog/" target="_blank" rel="noopener noreferrer">
+        <g transform="translate(400,300)">
+            <!-- Stem -->
+            <rect x="5" y="100" width="10" height="150" fill="#228B22" />
+          
+            <!-- Petals -->
+            <circle cx="10" cy="0" r="60" fill="#FFD700" />
+            <circle cx="-40" cy="50" r="60" fill="#FFD700" />
+            <circle cx="60" cy="50" r="60" fill="#FFD700" />
+            <circle cx="10" cy="100" r="60" fill="#FFD700" />
+            <circle cx="-30" cy="50" r="60" fill="#FFD700" />
+            <circle cx="50" cy="50" r="60" fill="#FFD700" />
+
+            <!-- Center -->
+            <circle cx="10" cy="50" r="30" fill="#964B00" />
+
+        </g>
+    </a>
+
+    <!-- Right Flower -->
+    <a href="https://www.inbloomflorist.com/blog/springflowers2021/" target="_blank" rel="noopener noreferrer">
+        <g transform="translate(650,300)">
+            <!-- Stem -->
+            <rect x="5" y="100" width="10" height="150" fill="#228B22" />
+          
+            <!-- Petals -->
+            <circle cx="10" cy="0" r="60" fill="#DBC6FA " />
+            <circle cx="-40" cy="50" r="60" fill="#DBC6FA  " />
+            <circle cx="60" cy="50" r="60" fill="#DBC6FA " />
+            <circle cx="10" cy="100" r="60" fill="#DBC6FA " />
+            <circle cx="-30" cy="50" r="60" fill="#DBC6FA " />
+            <circle cx="50" cy="50" r="60" fill="#DBC6FA" />
+
+            <!-- Center -->
+            <circle cx="10" cy="50" r="30" fill="#964B00" />
+
+        </g>
+    </a>
+
+    <!-- Text -->
+    <text x="400" y="500" font-family="Courier New" font-size="56" fill="black" text-anchor="middle">SOPHIA SOONG</text>
+</svg>
+
+
+<div class="options">
+    <a href="./Assignment1.html" class="goButton">
+        <button id="option-1" title="Academics + Hobbies">HTML/CSS</button>
+    </a>
+
+    </a>
+    <a href="./raster.html" class="goButton">
+        <button id="option-1" title="">Raster Graphics</button>
+    </a>    
+
+    <a href="./svg.html" class="goButton">
+        <button id="option-1" title="">Vector Graphics</button>
+    </a>  
+
+    <!--  
+    <a href="./" class="goButton">
+        <button id="option-1" title="">Website Layout</button>
+    </a>    
+    <a href="./" class="goButton">
+        <button id="option-1" title="">Responsive Design</button>
+    </a>    
+    <a href="./" class="goButton">
+        <button id="option-1" title="">JavaScript</button>
+    </a>
+    <a href="./" class="goButton">
+        <button id="option-1" title="">Final Project</button>
+ -->
+ 
+</div>
+
+<main>
+    <p>In progress of becoming great!</p>
+</main>
+
+<footer>
+    <p>&copy; 2024 Sophia's Homepage. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
